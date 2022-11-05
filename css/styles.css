@@ -131,7 +131,14 @@ margin-right: 0;
 .header-contact:focus {
   color: var(--accent-color);
 }
-
+.envelope-icon {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.envelope-icon:hover,
+.envelope-icon:focus {
+  fill: var(--accent-color);
+}
 /* стилі навігатора */
 
 .link-page-current .link-page-secondary {
@@ -216,7 +223,19 @@ margin-right: 0;
 .benefits-item {
   width: 270px;
 }
-
+.benefits-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background: var(--background-color-gray);
+  border-radius: 4px;
+}
+.benefits-icons + .benefits-icons {
+  margin-left: 30px;
+}
 .benefits-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -324,6 +343,45 @@ fill: var(--primary-white-color);
 }
 .team-list .social-item:last-child {
   margin-right: 0;
+}
+.client-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.client-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.client-icon {
+  fill: #AFB1B8;
+}
+.client-icon:hover {
+  fill: var(--accent-color);
+}
+.client-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+.client-item + .client-item {
+margin-left: 30px;
+}
+.client-item:hover {
+  border: 1px solid var(--accent-color);
+}
+.client-logo {
+  width: 106px;
+  height: 60px;
 }
 /* стилі main сторінки Porfolio */
 
