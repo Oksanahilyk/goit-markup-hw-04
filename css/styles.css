@@ -119,7 +119,7 @@ margin-right: 0;
   padding-top: 21px;
   padding-bottom: 21px;
 }
-.header-contact {
+.header-contacts {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,16 +130,16 @@ margin-right: 0;
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.header-contact:hover 
-.header-contact:focus {
+.header-contacts:hover 
+.header-contacts:focus {
   color: var(--accent-color);
 }
 .contact-icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.header-contact:hover .contact-icon 
-.header-contact:focus .contact-icon {
+.header-contacts:hover .contact-icon 
+.header-contacts:focus .contact-icon {
   fill: var(--accent-color);
 }
 /* стилі навігатора */
