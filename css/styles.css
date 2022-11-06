@@ -323,16 +323,17 @@ border-radius: 0px 0px 4px 4px;
   height: 44px;
   background: #FFFFFF;
   margin-right: 10px;
-  border-radius: 50%;
+  border-radiu  s: 50%;
   /* outline: 1px solid red; */
 }
 .social-icons {
   fill: #AFB1B8;
 }
-.social-icon .social-item:hover {
+.social-item:hover,
+.social-item:focus {
   background-color: var(--accent-color);
 }
-.social-icon .social-item:hover .social-icons {
+.social-item:hover .social-icons {
 fill: var(--primary-white-color);
 }
 .team-list .social-link {
@@ -409,6 +410,7 @@ margin-left: 30px;
 .button-filter:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-all {
@@ -448,6 +450,10 @@ margin-left: 30px;
 }
 .gallary-card:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+.gallary-card:hover,
+.gallary-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .gallary-photo {
   display: block;
