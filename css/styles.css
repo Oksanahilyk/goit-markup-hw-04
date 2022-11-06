@@ -128,7 +128,7 @@ margin-right: 0;
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.header-contact:hover,
+.header-contact:hover 
 .header-contact:focus {
   color: var(--accent-color);
 }
@@ -136,8 +136,8 @@ margin-right: 0;
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.contact-icon:hover,
-.contact-icon:focus {
+.header-contact:hover .contact-icon 
+.header-contact:focus .contact-icon {
   fill: var(--accent-color);
 }
 /* стилі навігатора */
@@ -323,7 +323,7 @@ border-radius: 0px 0px 4px 4px;
   height: 44px;
   background: #FFFFFF;
   margin-right: 10px;
-  border-radiu  s: 50%;
+  border-radius: 50%;
   /* outline: 1px solid red; */
 }
 .social-icons {
@@ -337,11 +337,15 @@ border-radius: 0px 0px 4px 4px;
 fill: var(--primary-white-color);
 }
 .team-list .social-link {
-  width: 100%;
+ width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.social-icon .social-link {
+  display: flex;
+  padding: 0px;
 }
 .team-list .social-item:last-child {
   margin-right: 0;
@@ -597,7 +601,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-.social-invitation {
+.social-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -612,6 +616,6 @@ color: #FFFFFF;
 .social-invitation:hover {
   background: var(--accent-color);
 }
-.invitation-icon {
+.social-invitation {
   fill: var(--primary-white-color);
 }
