@@ -138,10 +138,10 @@ margin-right: 0;
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-/* .header-contact:hover .contact-icon 
+.header-contact:hover .contact-icon 
 .header-contact:focus .contact-icon {
   fill: var(--accent-color);
-} */
+}
 /* стилі навігатора */
 
 .link-page-current .link-page-secondary {
